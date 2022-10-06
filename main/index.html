@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <title> 
+        CSS | perspective() function 
+    </title> 
+  
+    <style> 
+        h1 { 
+            color: rgb(14, 19, 14); 
+        } 
+        .left { 
+            transform: perspective(400px) rotateY(70deg); 
+        } 
+    </style> 
+</head> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"  crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="shortcut icon" href="../images/lettermark.png">
+    <title>Learnenmet</title>
+</head>
+<body>
+    <section id="nav-bar">
+    
+ 
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"><img src="./images/Logo.png"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa fa-bars"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#top">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">ABOUT US</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#footer">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    </section>
+
+    <section class="clearfix">
+
+      <ul class="solarsystem">
+        <li class="sun"><a href="#sun"><span>Sun</span></a></li>
+        <li class="mercury"><a href="#mercury"><span>Mercury</span></a></li>
+        <li class="venus"><a href="#venus"><span>Venus</span></a></li>
+        <li class="earth"><a href="#earth"><span>Earth<span class="moon"> &amp; Moon</span></span></a></li>
+        <li class="mars"><a href="#mars"><span>Mars</span></a></li>
+        <li class="asteroids_meteorids"><span>Asteroids &amp; Meteorids</span></li>
+        <li class="jupiter"><a href="#jupiter"><span>Jupiter</span></a></li>
+        <li class="saturn"><a href="#saturn"><span>Saturn &amp; <span class="ring">Ring</span></span></a></li>
+        <li class="uranus"><a href="#uranus"><span>Uranus</span></a></li>
+        <li class="neptune"><a href="#neptune"><span>Neptune</span></a></li>
+        <li class="pluto"><a href="#pluto"><span>Pluto</span></a></li>
+      </ul>
+            
+    <!--------------banner section-------------->   
+        <section id="banner">
+            
+             
+            
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="avatar">
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/751678/skytsunami.png" alt="Skytsunami" />
+                    </div> -->
+                <div class="col-md-6">
+                <!-- <p class="promo-title"></p> -->
+                <p style="font-size: 50px; margin-top:10%;">Learnenmet | Where learning is made easy.
+                </p>
+                <a href="./teachers/index.php" class="=btn btn-primary">Free Trial</a>
+                    <!-- <button type="button"class="btn btn-primary" >SignUp for Free</button> -->
+                <p class="space"></p>
+                    <!-- <p style="font-size: 20px;">Join us for a whole new journey towards learning new and variant skills like pottery, illustrations, coding, language, math, tech and many more!</p> -->
+                </div> 
+                <div class="col-md-6 text-center">
+                <img src="images/astro.png" class="img-fluid animate">    
+                </div>
+                </div>    
+                </div>  
+        
+             
+            
+            <!-- <img src="images/wave1.png" class="bottom-img">      -->
+        </section>
+    
+    <!------------Services Section-------------->
+    
+
+    <section id="services">
+        <div id="particles"></div>
+        <div class="container text-center">
+        <h1 class="title">WHAT WE DO</h1>
+        <div class="row text-center">
+        <div class="col-md-4 services">
+          <!-- <img src="images/rtc.png" class="service-img">  -->
+          <div class="container">
+            <img src="images/rtc.png" alt="Avatar" class="image">
+            <div class="overlay">
+              <a href="#" class="icon" title="User Profile">
+                <i class="fa fa-user"></i>
+              </a>
+            </div>
+          </div>
+
+        <h4>Real-Time Communications</h4>
+        <p>Experience a whole new communication ecosystem with our very own Real-Time online interaction portal.</p>
+        </div>  
+        <div class="col-md-4 services">
+        <!--- <img src="images/earthlove.png" class="service-img">  -->
+        
+        <div class="container">
+          <img src="images/earthlove.png" alt="Avatar" class="image">
+          <div class="overlay">
+            <a href="#" class="icon" title="User Profile">
+              <i class="fa fa-user"></i>
+            </a>
+          </div>
+        </div>
+
+        <h4>Global Instructors</h4>
+        <p>We provide a dynamic concept that involves journeys of people, minds and ideas for a scintillating crusade!.</p>
+        </div>  
+        <div class="col-md-4 services">
+          <!--  <img src="images/end.png" class="service-img"> --->
+          <div class="container">
+            <img src="images/end.png" alt="Avatar" class="image">
+            <div class="overlay">
+              <a href="#" class="icon" title="User Profile">
+                <i class="fa fa-user"></i>
+              </a>
+            </div>
+          </div>
+
+        <h4>End To End Encryption</h4>
+        <p>Encryption deletes any middle layers or steps which ensures you to have the best service. We will keep your data safe.</p>
+        </div>  
+        </div>   
+            <button type="button"class="btn btn-primary">All Services</button>
+        </div>   
+    </section>
+    <!----------About Us--------->  
+    <div id="particles"></div>
+    <section id="about-us">
+        <div class="container">
+        <h1 class="title text-center">ABOUT US</h1>
+        <div class="row">
+        <div class="col-md-6 about-us">
+        <p class="about-title"></p>
+            <ul>
+            <li>Instant messaging, rich audio, video calls and downloading.</li>
+            <li>Interdisciplinary and free courses from educators around the world.</li>
+            <li>Pay online with our secure payment gateways with ease.</li>
+            <li>Keep track of your batches and students through assessments, attendance facilities, graphic assistance, etc.</li>
+            </ul>
+        </div> 
+        <div class="col-md-6">
+        <img src="images/jelly2.png" class="img-fluid animate">    
+        </div>
+        </div>
+        </div>  
+    </section>
+    <!------------Price Plans------->
+<!-- <section id="price">
+    <div class="container">
+        <h1 class="title text-center">Price Plan</h1>
+        <div class="row">
+            <div class="col-md-3 price-container">
+                <div class="single-price">
+                    <div class="price-head">
+                        <h2>Free</h2>
+                        <p>$0/<span>month</span></p>
+                    </div>
+                <div class="price-content">
+                <ul>
+                <li><i class="fa fa-check-circle"></i>5GB Space</li>
+                <li><i class="fa fa-check-circle"></i>10GB Bandwidth</li>
+                <li><i class="fa fa-times-circle"></i>15 Email Account</li>
+                <li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
+                <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                </ul>
+                </div>
+                <div class="price-button">
+                <a class="buy-btn" href="#">Join Free</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3 price-container">
+                <div class="single-price">
+                    <div class="price-head">
+                        <h2>Start up</h2>
+                        <p>$10/<span>month</span></p>
+                    </div>
+                <div class="price-content">
+                <ul>
+                <li><i class="fa fa-check-circle"></i>10GB Space</li>
+                <li><i class="fa fa-check-circle"></i>100GB Bandwidth</li>
+                <li><i class="fa fa-check-circle"></i>15 Email Account</li>
+                <li><i class="fa fa-times-circle"></i>Unlimited Domain</li>
+                <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                </ul>
+                </div>
+                <div class="price-button">
+                <a class="buy-btn" href="#">Buy Now</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3 price-container">
+                <div class="single-price">
+                    <div class="price-head">
+                        <h2>Business</h2>
+                        <p>$50/<span>month</span></p>
+                    </div>
+                <div class="price-content">
+                <ul>
+                <li><i class="fa fa-check-circle"></i>20GB Space</li>
+                <li><i class="fa fa-check-circle"></i>200GB Bandwidth</li>
+                <li><i class="fa fa-check-circle"></i>50 Email Account</li>
+                <li><i class="fa fa-check-circle"></i>Unlimited Domain</li>
+                <li><i class="fa fa-times-circle"></i>Unlimited Support</li>
+                </ul>
+                </div>
+                <div class="price-button">
+                <a class="buy-btn" href="#">Buy Now</a>
+                </div>
+                </div>
+            </div>
+            <div class="col-md-3 price-container">
+                <div class="single-price">
+                    <div class="price-head">
+                        <h2>Advanced</h2>
+                        <p>$100/<span>month</span></p>
+                    </div>
+                <div class="price-content">
+                <ul>
+                <li><i class="fa fa-check-circle"></i>50GB Space</li>
+                <li><i class="fa fa-check-circle"></i>Unlimited Bandwidth</li>
+                <li><i class="fa fa-check-circle"></i>Unlimited Email Account</li>
+                <li><i class="fa fa-check-circle"></i>Unlimited Domain</li>
+                <li><i class="fa fa-check-circle"></i>Unlimited Support</li>
+                </ul>
+                </div>
+                <div class="price-button">
+                <a class="buy-btn" href="#">Buy Now</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+<!--------------Social Media section-------------->   
+<section id="social-media">   
+    <!-- <div id="particles"></div> -->
+    <div class="container text-center">
+    <p style="color: #fafafa;"> FIND US ON SOCIAL MEDIA</p> 
+        <div class="social-icons text-center">
+        <!-- <a href="#"><img src="images/facebook-icon.png"></a>
+        <a href="#"><img src="images/instagram-icon.png"></a>
+        <a href="#"><img src="images/twitter-icon.png"></a>
+        <a href="#"><img src="images/whatsapp-icon.png"></a>
+        <a href="https://www.linkedin.com/company/learnenmet/"><img src="images/linkedin-icon.png"></a>
+        <a href="#"><img src="images/snapchat-icon.png"></a> -->
+       
+        <p class="social text-center">
+            <a href="#" class="external facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="external youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/learnenmet/" class="external twitter"><i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://www.instagram.com/learnenmet/" title="" class="external instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:learnenmetsolutions@gmail.com" class="email">
+              <i class="fa fa-envelope"> </i>
+            </a></p>
+        
+        </div>
+    </div>
+</section> 
+
+<!------------footer section ------------>   
+<section id="footer">
+    
+    <!-- <img src="images/wave2.png" class="footer-img">    -->
+    
+        <div class="container">
+            <div id="particle"></div>
+            <div class="row">
+               
+            <div class="col-md-6 footer-box">
+            <img src="images/Logo.png">
+                <!-- <p>Learnenmet, where learning is made easy.<br></p> -->
+                <p>Join us on this adventure and thrive for new prowess everyday</p>
+            </div> 
+            <div class="col-md-6 footer-box">
+                <p><b>CONTACT US</b></p>
+                <p><i class="fa fa-map-marker"></i> EDUTHRIVE SOLUTIONS PVT.LTD
+                    #39, 8th Main Road, Vasanth Nagar, Bangalore, Karnataka – 560051 India</p>
+                <p><i class="fa fa-phone"></i> 7892455304</p>
+                <p><i class="fa fa-envelope"></i> learnenmetsolutions@gmail.com</p>
+                
+            </div>
+            <!-- <div class="col-md-4 footer-box">
+                <p><b>CONTACT-US </b></p>
+                <input type="email" class="form-control" placeholder="Your Email">
+                <button type="button" class="btn btn-primary">Contact us</button>
+                
+            </div> -->
+            </div>
+                <hr>
+                <p class="copyright">Made with <span style="color: #1b2428;">&#9829;</span> in India </p>
+            </div> 
+     
+    </section>    
+    
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<script>
+    particlesJS.load('particles', 'particleblue.json', function(){
+      console.log('particlesjs-config.json loaded...');
+    });
+  </script>
+  <script>
+    particlesJS.load('particle', 'particlesjs-config.json', function(){
+      console.log('particlesjs-config.json loaded...');
+    });
+  </script>
+</html>
+
+
+
+
