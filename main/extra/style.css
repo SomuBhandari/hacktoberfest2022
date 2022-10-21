@@ -1001,7 +1001,7 @@ ul.solarsystem li.pluto {-webkit-animation-duration:120s; -moz-animation-duratio
     
     /* Make the image to responsive */
     .image {
-      width: 100%;
+      width: 50%;
       height: auto;
     }
     
